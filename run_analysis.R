@@ -71,3 +71,5 @@ averaged_data <- summarise_all(grouped_data, funs(mean))
 
 ## Export the results into a CSV file:
 write.csv(averaged_data, "./UCI HAR Dataset/tidy_data.csv")
+
+averaged_data

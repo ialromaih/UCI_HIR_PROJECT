@@ -1,9 +1,10 @@
 1. The raw data is downloaded from this link (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 2. The zip file is extracted into a the "UCI HAR Dataset" folder.
-3. The following files are loaded:
+3. The following files are loaded
 - varaible names (./UCI HAR Dataset/features.txt)
 - activity labels (./UCI HAR Dataset/activity_labels.txt)
-- training data measuremnets (./UCI HAR Dataset/train/X_train.txt)
+- training data
+ - measuremnets (./UCI HAR Dataset/train/X_train.txt)
 - training data activity codes (./UCI HAR Dataset/train/y_train.txt)
 - training data subject IDs (./UCI HAR Dataset/train/subject_train.txt)
 - test data measuremnets (./UCI HAR Dataset/test/X_test.txt)

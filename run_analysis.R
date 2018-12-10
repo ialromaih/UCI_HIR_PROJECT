@@ -70,4 +70,4 @@ grouped_data  <- group_by(data,SubjectID ,Activity)
 averaged_data <- summarise_all(grouped_data, funs(mean))
 
 ## Export the results into a CSV file:
-write.csv(averaged_data, "./UCI HAR Dataset/Solution/tidy_data.csv")
+write.csv(averaged_data, "./UCI HAR Dataset/tidy_data.csv")

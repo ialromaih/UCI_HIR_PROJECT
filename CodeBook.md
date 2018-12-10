@@ -23,7 +23,7 @@
 11. A second data set is created by grouoing the data based on {SubjectID,ActivityLabel} and averaging all measurements
 12. The results are exported into (./UCI HAR Dataset/tidy_data.csv) file.
 13. The output file contains the following variables:
-    ###keys:
+    ### keys:
         SubjectID: The numeric ID for the subject perfoming the activity
         Activity: The name of the activity performed by the subject
 

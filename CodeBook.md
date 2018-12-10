@@ -31,6 +31,7 @@
 The following measurements are averaged for that activity and subject:
 - mean(): Mean value
 - std(): Standard deviation
+
 For the following signals
 - tBodyAcc-mean()-X
 - tBodyAcc-mean()-Y

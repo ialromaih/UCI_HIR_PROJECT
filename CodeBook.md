@@ -1,4 +1,4 @@
-#1. The raw data is downloaded from this link (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
+1. The raw data is downloaded from this link (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 2. The zip file is extracted into a the "UCI HAR Dataset" folder.
 3. The following files are loaded
 - Varaible names  `./UCI HAR Dataset/features.txt`
@@ -23,7 +23,7 @@
 11. A second data set is created by grouoing the data based on {SubjectID,ActivityLabel} and averaging all measurements
 12. The results are exported into (./UCI HAR Dataset/tidy_data.csv) file.
 13. The output file contains the following variables:
-      (keys):
+    ###keys:
         SubjectID: The numeric ID for the subject perfoming the activity
         Activity: The name of the activity performed by the subject
 

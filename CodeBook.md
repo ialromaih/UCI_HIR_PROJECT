@@ -24,10 +24,10 @@
 12. The results are exported into (./UCI HAR Dataset/tidy_data.csv) file.
 13. The output file contains the following variables:
     ### keys:
-        SubjectID: The numeric ID for the subject perfoming the activity
-        Activity: The name of the activity performed by the subject
+    SubjectID: The numeric ID for the subject perfoming the activity
+    Activity: The name of the activity performed by the subject
 
-      (Measurements):
+    ### Measurements:
         The following measurements are averaged for that activity and subject:
           mean(): Mean value
           std(): Standard deviation

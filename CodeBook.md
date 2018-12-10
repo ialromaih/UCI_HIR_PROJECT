@@ -4,12 +4,13 @@
 - varaible names (./UCI HAR Dataset/features.txt)
 - activity labels (./UCI HAR Dataset/activity_labels.txt)
 - training data
- - measuremnets (./UCI HAR Dataset/train/X_train.txt)
-- training data activity codes (./UCI HAR Dataset/train/y_train.txt)
-- training data subject IDs (./UCI HAR Dataset/train/subject_train.txt)
-- test data measuremnets (./UCI HAR Dataset/test/X_test.txt)
-- test data activity codes (./UCI HAR Dataset/test/y_test.txt)
-- test data subject IDs (./UCI HAR Dataset/test/subject_test.txt)
+  - measuremnets (./UCI HAR Dataset/train/X_train.txt)
+  - activity codes (./UCI HAR Dataset/train/y_train.txt)
+  - subject IDs (./UCI HAR Dataset/train/subject_train.txt)
+- test data
+  - measuremnets (./UCI HAR Dataset/test/X_test.txt)
+  - activity codes (./UCI HAR Dataset/test/y_test.txt)
+  - subject IDs (./UCI HAR Dataset/test/subject_test.txt)
 
 4. for both the test data and the training data, the following files are merged:
     subject IDs + activity codes + measuremnets
